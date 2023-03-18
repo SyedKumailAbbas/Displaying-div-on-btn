@@ -1,0 +1,52 @@
+.btndiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: transparent;
+
+}
+
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 10px 10px 100px 10px cyan  ;
+}
+
+.closebtn {
+    float: right;
+}
+
+@keyframes animate {
+    100% {
+        background-color: black;
+        color: cyan;
+        border-radius: 20px;
+    }
+
+}
+
+#div1,
+#div2,
+#div3 {
+    width: 30%;
+    margin: 10px;
+    height: max-content;
+    animation: alternate-reverse animate 1s;
+}
+
+#div2 {
+    margin: 10px auto;
+}
+.close1{
+    background-color: red;
+}
+
+#div3 {
+    float: right;
+}
+
+h3 {
+    display: inline-block;
+}

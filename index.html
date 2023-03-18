@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="btndiv">
+        <button onclick="div1open()" >Div1</button>
+        <button onclick="div2open()">Div2</button>
+        <button onfocus="div3open()">Div3</button>
+    </div>
+    <div class="maindiv">
+        <div id="div1">
+            <button onclick="closediv(this)" class="closebtn">x</button>
+
+            <h3>I am div 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia dicta ex recusandae modi voluptatem,
+                non debitis sequi reiciendis quos quidem earum perferendis est possimus, distinctio velit unde? Labore,
+                ratione ut!</p>
+
+        </div>
+        <div id="div2">
+            <button onclick="closediv(this)" class="closebtn">x</button>
+
+            <h3>Hello here is div 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illum nesciunt reprehenderit
+                excepturi maxime magni, vero esse blanditiis exercitationem ipsum veniam perferendis iusto dolorum
+                delectus, molestias, eaque ad eius ipsam.</p>
+
+        </div>
+        <div id="div3">
+            <button onclick="closediv(this)" class="closebtn">x</button>
+            <h3>Here is div 3</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis dolore atque sequi dolores harum
+                ducimus recusandae praesentium aliquid debitis dolorum est impedit, deserunt iusto nobis veniam labore
+                repellat officiis modi.</p>
+        </div>
+
+
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
